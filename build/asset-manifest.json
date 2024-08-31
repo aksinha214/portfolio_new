@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2b7975f6.css",
-    "main.js": "/static/js/main.f2b0ab4d.js",
+    "main.js": "/static/js/main.ac63b5bc.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/myself.jpg": "/static/media/myself.ba1821f5b8b6e260bbe2.jpg",
     "static/media/Redwing-Medium.otf": "/static/media/Redwing-Medium.7402d4c764b8807db59b.otf",
@@ -10,11 +10,11 @@
     "static/media/angle-down.svg": "/static/media/angle-down.11e201872eb97a54f0d3.svg",
     "static/media/triangle.svg": "/static/media/triangle.5172a3481a7112a7a103.svg",
     "main.2b7975f6.css.map": "/static/css/main.2b7975f6.css.map",
-    "main.f2b0ab4d.js.map": "/static/js/main.f2b0ab4d.js.map",
+    "main.ac63b5bc.js.map": "/static/js/main.ac63b5bc.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b7975f6.css",
-    "static/js/main.f2b0ab4d.js"
+    "static/js/main.ac63b5bc.js"
   ]
 }
