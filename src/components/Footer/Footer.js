@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div className="footer__container text-4xl">
+        <div className="footer__container text-2xl">
           <p>
             Made with <FontAwesomeIcon icon={faHeart} size="sm" /> by Ajay Sinha
           </p>

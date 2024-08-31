@@ -4,6 +4,14 @@ export const config = {
     projectCard: {
       cards: [
         {
+          heading: 'My Website',
+          description:
+            'This myn website is build by using React.js, Node.js and JavaScript which has all necessary files and links of My online accounts.',
+          animationDelay: '900',
+          buttonLink: 'https://github.com/aksinha214/portfolio_new',
+          buttonText: 'CHECK OUT',
+        },
+        {
           heading: 'E-Commerce-KYATO_SHOP',
           description:
             'E-Commerce website using React.js, Node.js, Express.js and MangoDb(Database)',

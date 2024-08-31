@@ -14,29 +14,29 @@ const Skill = () => {
     // If 3D Text Sphere is not showing up after deployment remove the return (i.e, return() =>{}) function from below code
     return () => {
       const texts = [
-        'HTML5',
-        'CSS3',
-        'Bootstrap',
-        'JavaScript',
-        'React',
-        'Java',
-        'Kotlin',
-        'NodeJS',
-        'C',
-        'Jquery',
-        'ES6',
-        'GIT',
-        'GITHUB',
-        'MongoDB',
-        'Android',
-        '.NET C#',
-        'Python',
-        'Laravel',
-        'PHP',
-        'MySQL',
-        'PostgreSQL',
-        'JSP and Servlet',
-        'SpringBoot',
+        // 'HTML5',
+        // 'CSS3',
+        // 'Bootstrap',
+        // 'JavaScript',
+        // 'React',
+        // 'Java',
+        // 'Kotlin',
+        // 'NodeJS',
+        // 'C',
+        // 'Jquery',
+        // 'ES6',
+        // 'GIT',
+        // 'GITHUB',
+        // 'MongoDB',
+        // 'Android',
+        // '.NET C#',
+        // 'Python',
+        // 'Laravel',
+        // 'PHP',
+        // 'MySQL',
+        // 'PostgreSQL',
+        // 'JSP and Servlet',
+        // 'SpringBoot',
       ];
 
 
@@ -117,7 +117,7 @@ const Skill = () => {
               </span>
             </h1>
           </div>
-          <div className="skill__inner-container">
+          <div className="skill__inner-container grid-cols-7">
             <div className="skill__info">
               <div className="skill__details-container">
                 <div className="skill__details">
@@ -223,8 +223,10 @@ const Skill = () => {
             </div>
 
             {/* 3D Text Cloud  */}
-            <div className="skill__cloud">
-              <div className="tagcloud" data-aos="zoom-in-up" data-aos-offset="200"></div>
+            <div className="skill__cloud grid-cols-5">
+              <div >
+                <img src="https://www.thisiscolossal.com/wp-content/uploads/2024/01/spherewave.gif" alt='animation' className='w-full h-lvh'/>
+              </div>
             </div>
           </div>
         </div>
