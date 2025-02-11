@@ -30,7 +30,7 @@ const Certificates = () => {
   return (
     <>
       <h2
-        className="text-gray-50 text-4xl font-bold hover:underline ml-8"
+        className="text-sky-50 text-4xl font-bold hover:underline ml-8"
         id="certificate"
       >
         {" "}
@@ -42,8 +42,8 @@ const Certificates = () => {
         data-aos-once="true"
         data-aos-duration="2.5"
       >
-        <div className="font-bold text-gray-50 mx-8">
-          <Collapsible trigger="<--Click Me-->">
+        <div className="font-bold text-sky-50 mx-8">
+          <Collapsible trigger="<---------Click Me--------->">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
                 <Image alt="Image" width="250" src={CCNA2} preview />

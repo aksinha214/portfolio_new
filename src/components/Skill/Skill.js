@@ -4,6 +4,8 @@ import React, { useEffect } from 'react';
 import TagCloud from 'TagCloud';
 
 import '../../styles/Skill/Skill.scss';
+import { Image } from 'primereact/image';
+
 
 const Skill = () => {
   // Animation settings for Text Cloud
@@ -161,13 +163,13 @@ const Skill = () => {
                   </ul>
                 </div>
                 <div className="skill__details">
-                  <h4>Business:</h4><span className='bg-sky-50 text-pink-950'> Click to visit :-</span> 
+                  <h4>Business:</h4><span className='text-sky-50 bg-pink-950'> Click to visit :-</span> 
                   <ul>
                     <li>
-                      <span><a href="https://admin.shopify.com/store/f6abc0-f6" rel="noopener noreferrer" target="_blank">Shopify.com</a>, Shop App</span>
+                      <span className='underline decoration-sky-500'><a href="https://admin.shopify.com/store/f6abc0-f6" rel="noopener noreferrer" target="_blank">Shopify.com</a>, Shop App</span>
                     </li>
                     <li>
-                      <span><a href="https://www.freelancer.in/u/azaysinha" rel="noopener noreferrer" target="_blank">Freelancer.in</a>, <a href="https://www.fiverr.com/ajayok/buying?source=avatar_menu_profile" rel="noopener noreferrer" target="_blank">Fiverr.com</a></span>
+                      <span className='underline decoration-sky-500'><a href="https://www.freelancer.in/u/azaysinha" rel="noopener noreferrer" target="_blank">Freelancer.in</a>, <a href="https://www.fiverr.com/ajayok/buying?source=avatar_menu_profile" rel="noopener noreferrer" target="_blank">Fiverr.com</a></span>
                     </li>
                   </ul>
                 </div>
@@ -225,7 +227,7 @@ const Skill = () => {
             {/* 3D Text Cloud  */}
             <div className="skill__cloud grid-cols-5">
               <div >
-                <img src="https://www.thisiscolossal.com/wp-content/uploads/2024/01/spherewave.gif" alt='animation' className='w-full h-lvh'/>
+                <Image  src="https://www.thisiscolossal.com/wp-content/uploads/2024/01/spherewave.gif" alt='animation' className='w-full h-lvh' preview/>
               </div>
             </div>
           </div>

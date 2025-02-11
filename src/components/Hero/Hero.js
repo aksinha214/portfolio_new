@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import "../../styles/Hero/Hero.scss";
-
+import { Image } from 'primereact/image';
 import Myself from "../../assets/images/myself.jpg";
 
 const Hero = () => {
@@ -136,7 +136,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero__image" data-aos="zoom-in" data-aos-delay="200">
-            <img src={Myself} alt="me" />
+            <Image src={Myself} alt="Image" width="250" preview/>
           </div>
         </div>
       </div>
