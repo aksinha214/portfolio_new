@@ -142,7 +142,7 @@ const About = () => {
                 <p>
                   <span>RK University </span>
                   <br />
-                  I currently pursuing  in B.tech in Computer Engineering from RK UNIVERSITY , where I gained a solid foundation in Wen development and App development . My time at RK UNIVERSITY helped sharpen my critical thinking and problem-solving abilities, preparing me for the dynamic challenges of the professional world.                 </p>
+                  I currently pursuing  in B.tech in Computer Engineering from RK UNIVERSITY , where I gained a solid foundation in Web development and App development . My time at RK UNIVERSITY helped sharpen my critical thinking and problem-solving abilities, preparing me for the dynamic challenges of the professional world.                 </p>
               </Link>
             </div>
           </div>

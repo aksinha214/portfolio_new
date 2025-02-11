@@ -1,7 +1,31 @@
 import React from 'react';
-
+import { Image } from 'primereact/image';
 // Used 'react-collapsible' package for creating collapsible bars
 import Collapsible from 'react-collapsible';
+import CCNA2 from "../../assets/certificates/CCNA2.jpeg";
+import CCNA1 from "../../assets/certificates/CCNA1.jpeg";
+import CCNA3 from "../../assets/certificates/CCNA3.jpeg";
+import CISCOiot from "../../assets/certificates/CISCOiot.jpeg";
+import createresume from "../../assets/certificates/createresume.jpeg";
+import css3 from "../../assets/certificates/css3.jpeg";
+import datastructure from "../../assets/certificates/datastructure.jpeg";
+import editcv from "../../assets/certificates/editcv.jpeg";
+import flipKart from "../../assets/certificates/flipKart.jpeg";
+import html from "../../assets/certificates/html.jpeg";
+import html5 from "../../assets/certificates/html5.jpeg";
+import ideation from "../../assets/certificates/ideation.jpeg";
+import integra from "../../assets/certificates/integra.jpeg";
+import iot from "../../assets/certificates/iot.jpeg";
+import javafeatures from "../../assets/certificates/javafeatures.jpeg";
+import javaprogramming from "../../assets/certificates/javaprogramming.jpeg";
+import javascript from "../../assets/certificates/javascript.jpeg";
+import javase8 from "../../assets/certificates/javase8.jpeg";
+import machinelearning from "../../assets/certificates/machinelearning.jpeg";
+import python1 from "../../assets/certificates/python1.jpeg";
+import pythonnetacad from "../../assets/certificates/pythonnetacad.jpeg";
+import reskill from "../../assets/certificates/reskill.jpeg";
+import yudiz from "../../assets/certificates/yudiz.jpeg";
+
 
 
 
@@ -21,76 +45,76 @@ const Certificates = () => {
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQHsS2HuBLdOYA/feedshare-shrink_480/feedshare-shrink_480/0/1722876166470?e=1727913600&v=beta&t=M9YjvogfEgC4D1b6z8IdzD3rb5LZykRTPnF5bycAuJc" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={CCNA2} alt=""  preview />
+              </div>
+              {/* <div>
+                <Image  class="h-auto max-w-full rounded-lg" src={CCNA2 } alt=""  preview />
+              </div> */}
+              <div>
+                <Image  class="h-auto max-w-full rounded-lg" src={CCNA1}  alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQFkMJGvxLleIg/feedshare-shrink_1280/feedshare-shrink_1280/0/1720752945418?e=1727913600&v=beta&t=F97qXsZXYtTA0vdO3xrb0BO3OE7wTyu6G3rTauKFBvs" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={CCNA3}  alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQGI1fuHveJKag/feedshare-shrink_1280/feedshare-shrink_1280/0/1720752945135?e=1727913600&v=beta&t=aBtNw9emrIdG_A8RF6A_8YYTjNNYSC6sOZu8qcEVISc" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={CISCOiot} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQF0bvilHRnzow/feedshare-shrink_1280/feedshare-shrink_1280/0/1720752945474?e=1727913600&v=beta&t=UBo_igkgaFtxJtLWuJojC3lNXLXj440-7-h5KqP7RGE" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={createresume} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQGo14MIrisRZQ/feedshare-shrink_480/feedshare-shrink_480/0/1711798924054?e=1727913600&v=beta&t=0XFyniLPS-lBr1UsQPQx-_NSqwKZunswrtWQdOqPOVc" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={css3} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQF11fEKzAhmFA/feedshare-shrink_480/feedshare-shrink_480/0/1692815165702?e=1727913600&v=beta&t=cy_Kunt2jF0AoCuNbBDXCEzTPOvCu5-zmwBfDwVOu8U" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={datastructure} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQEWkgxjNk_G5g/feedshare-shrink_480/feedshare-shrink_480/0/1690885447534?e=1727913600&v=beta&t=wBMFonD_fPi1yrsGnyz-Ydgk5--kfawb6Igp5rgQ-ak" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={editcv} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQFvNjEX93lKCA/feedshare-shrink_1280/feedshare-shrink_1280/0/1685096995830?e=1727913600&v=beta&t=Sq-QcBGKYJcrGxauVQPRAYlHuqIGJbTX0SZdkTznt7M" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={flipKart} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQE6Rp5NAQS23Q/feedshare-shrink_1280/feedshare-shrink_1280/0/1685096996744?e=1727913600&v=beta&t=YRZtk3Wjybct9EsKHNEzyo8omrWbCXL4hDb2PGGvMBM" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={html} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQH0VeKkZk1jHg/feedshare-shrink_1280/feedshare-shrink_1280/0/1685096996526?e=1727913600&v=beta&t=XNGJEWoGBLj_zLBZ4qwZgaR4zSw1ivdE56ZOAUKJjiY" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={html5} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQGx2msbuBoOFQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1685096724949?e=1727913600&v=beta&t=I0l2vOI6XV4TMDQEuTkc4ecE1BbcHVJm8oJz6gqvR98" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={ideation} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQE3zM_gF-l87w/feedshare-shrink_1280/feedshare-shrink_1280/0/1685096724563?e=1727913600&v=beta&t=B-oYyputh-3lV_GLObAw3dkQTnQ-faZ1YmMmpB-i2TA" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={integra} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQH68FX6Ssa9Pw/feedshare-shrink_1280/feedshare-shrink_1280/0/1685096724086?e=1727913600&v=beta&t=0m7L4TU2wHkbpirHeXh_cPSKfST6V2yVqe2FK9fCM2I" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={iot} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQGEOhtqvgR3lA/feedshare-shrink_480/feedshare-shrink_480/0/1685096638903?e=1727913600&v=beta&t=q0-KkOWJgbw5-S3xg9FqhmrepXHdDXAczasVspDrpNA" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={javafeatures} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQFVKq3kPcCCCQ/feedshare-shrink_480/feedshare-shrink_480/0/1685096547687?e=1727913600&v=beta&t=WO5IATgOporEB3E6b70KKMJhOQ9dYvPwpaODA0CEzLY" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={javaprogramming} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQFy1MbgclQRTg/feedshare-shrink_480/feedshare-shrink_480/0/1685096317849?e=1727913600&v=beta&t=UBaUj9nc0R6XWur39WqefqJJ0ovjyLb5_E0ogH4lYBU" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={javascript} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQFknSxs8c9sUw/feedshare-shrink_480/feedshare-shrink_480/0/1685095846068?e=1727913600&v=beta&t=DGQoRZVmNAKROb1pgjv8WyfZKfrFGWOQb3vQCz6eC_0" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={javase8} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/D4D22AQEyNvC0hITHRA/feedshare-shrink_480/feedshare-shrink_480/0/1670503164251?e=1727913600&v=beta&t=N6kx8w8ySVe-tQb-adD8cxTXhEcqgJZMeygQKotUS9Q" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={machinelearning} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/C4D22AQGxY2ydLArM1g/feedshare-shrink_1280/feedshare-shrink_1280/0/1668015725875?e=1727913600&v=beta&t=9C2HbBa57SUDkYXg_NenSIWYqZvXRwpgFn7r4Fh8WTY" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={python1} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/C4D22AQGWb8K0A_6okA/feedshare-shrink_1280/feedshare-shrink_1280/0/1668015726715?e=1727913600&v=beta&t=49tDChTTZCOMGhPNpN7qE2aY8i6fXGeC_-Nc_yHN7ls" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={pythonnetacad} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/C4D22AQECK4zVAl-bBQ/feedshare-shrink_480/feedshare-shrink_480/0/1667976297659?e=1727913600&v=beta&t=UAmLhOJxQjw_YjRvrJ5oXm9l5qflVtxkRdo9noV4FY8" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={reskill} alt=""  preview />
               </div>
               <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/C4D22AQEhUAQBqzX9AA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1667975955732?e=1727913600&v=beta&t=LLt3Tlms9PgRQRG5Ge5VkdasCmnKvRp4F7cvFJ9E_B4" alt="" />
-              </div>
-              <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/C4D22AQE_YoUbfrNXrg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1667975957150?e=1727913600&v=beta&t=FJFXd8mAWMSl_PZiEhOYUynusRNqAaO1nrMLdN5jRnE" alt="" />
-              </div>
-              <div>
-                <img class="h-auto max-w-full rounded-lg" src="https://media.licdn.com/dms/image/v2/C4D22AQFiGCB2gGrl8Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1667975962392?e=1727913600&v=beta&t=7cRncX3KmVhFeZWndwPZ8BXsZiGOTngwuAAXF8BVHOw" alt="" />
+                <Image  class="h-auto max-w-full rounded-lg" src={yudiz} alt=""  preview />
               </div>
               
             </div>

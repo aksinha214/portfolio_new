@@ -83,6 +83,38 @@ export const config = {
           buttonText: 'CHECK OUT',
         },
         {
+          heading: 'React-Tutorials',
+          description:
+            'Each and every concept of React, Hooks, PrimeReact, Server sides, API, Database and so on based on projects are clear',
+          animationDelay: '900',
+          buttonLink: 'https://github.com/aksinha214/React',
+          buttonText: 'CHECK OUT',
+        },
+        {
+          heading: 'TypeScript-Tutorial',
+          description:
+            'All concept of typeScript are clear with demo projects and tutorials',
+          animationDelay: '900',
+          buttonLink: 'https://github.com/aksinha214/TypeScript',
+          buttonText: 'CHECK OUT',
+        },
+        {
+          heading: 'JavaScript & JQuery-Tutorials',
+          description:
+            'All JavaScript concepts and practical demo of functions, events, DOM, and so on from beginner to advance.',
+          animationDelay: '1100',
+          buttonLink: 'https://github.com/aksinha214/Hotelmanagementsystemhttps://github.com/aksinha214/JavaScript',
+          buttonText: 'CHECK OUT',
+        },
+        {
+          heading: 'HTML, CSS and Bootstrap-Tutorials',
+          description:
+            'Tutorials of HTML, CSS and Bootstrap with demo practical.',
+          animationDelay: '900',
+          buttonLink: 'https://github.com/aksinha214/HTML-CSS',
+          buttonText: 'CHECK OUT',
+        },
+        {
           heading: 'Under Construction',
           description: '</>',
           animationDelay: '1100',
