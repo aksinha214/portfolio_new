@@ -161,7 +161,7 @@ const Skill = () => {
                   </ul>
                 </div>
                 <div className="skill__details">
-                  <h4>Business:</h4><span> Click to visit</span> 
+                  <h4>Business:</h4><span className='bg-sky-50 text-pink-950'> Click to visit :-</span> 
                   <ul>
                     <li>
                       <span><a href="https://admin.shopify.com/store/f6abc0-f6" rel="noopener noreferrer" target="_blank">Shopify.com</a>, Shop App</span>
