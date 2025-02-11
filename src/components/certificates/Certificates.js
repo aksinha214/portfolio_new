@@ -1,7 +1,7 @@
-import React from 'react';
-import { Image } from 'primereact/image';
+import React from "react";
+import { Image } from "primereact/image";
 // Used 'react-collapsible' package for creating collapsible bars
-import Collapsible from 'react-collapsible';
+import Collapsible from "react-collapsible";
 import CCNA2 from "../../assets/certificates/CCNA2.jpeg";
 import CCNA1 from "../../assets/certificates/CCNA1.jpeg";
 import CCNA3 from "../../assets/certificates/CCNA3.jpeg";
@@ -26,13 +26,16 @@ import pythonnetacad from "../../assets/certificates/pythonnetacad.jpeg";
 import reskill from "../../assets/certificates/reskill.jpeg";
 import yudiz from "../../assets/certificates/yudiz.jpeg";
 
-
-
-
 const Certificates = () => {
   return (
     <>
-        <h2 className='text-gray-50 text-4xl font-bold hover:underline ml-8' id='certificate'> Certificates</h2>
+      <h2
+        className="text-gray-50 text-4xl font-bold hover:underline ml-8"
+        id="certificate"
+      >
+        {" "}
+        Certificates
+      </h2>
       <div
         className="project-card"
         data-aos="fade-up"
@@ -40,85 +43,81 @@ const Certificates = () => {
         data-aos-duration="2.5"
       >
         <div className="font-bold text-gray-50 mx-8">
-          <Collapsible trigger="<--Click Me-->" >
-
-
+          <Collapsible trigger="<--Click Me-->">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={CCNA2} alt=""  preview />
+                <Image alt="Image" width="250" src={CCNA2} preview />
               </div>
               {/* <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={CCNA2 } alt=""  preview />
+                <Image  alt="Image" width="250" src={CCNA2 }   preview />
               </div> */}
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={CCNA1}  alt=""  preview />
+                <Image  src={CCNA1}  width="250"  alt="Image" preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={CCNA3}  alt=""  preview />
+                <Image alt="Image" width="250" src={CCNA3} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={CISCOiot} alt=""  preview />
+                <Image alt="Image" width="250" src={CISCOiot} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={createresume} alt=""  preview />
+                <Image alt="Image" width="250" src={createresume} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={css3} alt=""  preview />
+                <Image alt="Image" width="250" src={css3} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={datastructure} alt=""  preview />
+                <Image alt="Image" width="250" src={datastructure} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={editcv} alt=""  preview />
+                <Image alt="Image" width="250" src={editcv} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={flipKart} alt=""  preview />
+                <Image alt="Image" width="250" src={flipKart} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={html} alt=""  preview />
+                <Image alt="Image" width="250" src={html} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={html5} alt=""  preview />
+                <Image alt="Image" width="250" src={html5} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={ideation} alt=""  preview />
+                <Image alt="Image" width="250" src={ideation} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={integra} alt=""  preview />
+                <Image alt="Image" width="250" src={integra} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={iot} alt=""  preview />
+                <Image alt="Image" width="250" src={iot} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={javafeatures} alt=""  preview />
+                <Image alt="Image" width="250" src={javafeatures} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={javaprogramming} alt=""  preview />
+                <Image alt="Image" width="250" src={javaprogramming} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={javascript} alt=""  preview />
+                <Image alt="Image" width="250" src={javascript} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={javase8} alt=""  preview />
+                <Image alt="Image" width="250" src={javase8} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={machinelearning} alt=""  preview />
+                <Image alt="Image" width="250" src={machinelearning} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={python1} alt=""  preview />
+                <Image alt="Image" width="250" src={python1} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={pythonnetacad} alt=""  preview />
+                <Image alt="Image" width="250" src={pythonnetacad} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={reskill} alt=""  preview />
+                <Image alt="Image" width="250" src={reskill} preview />
               </div>
               <div>
-                <Image  class="h-auto max-w-full rounded-lg" src={yudiz} alt=""  preview />
+                <Image alt="Image" width="250" src={yudiz} preview />
               </div>
-              
             </div>
-            
           </Collapsible>
         </div>
       </div>
